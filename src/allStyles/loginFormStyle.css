@@ -1,0 +1,45 @@
+.formDiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 40vh;
+
+  width: 65%;
+}
+.formDiv2 {
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .formDiv {
+    width: 85%;
+  }
+}
+.loginbttn {
+  width: 100%;
+  font-weight: 600 !important;
+}
+.field {
+  width: 100%;
+}
+.header {
+  font-size: 35px !important;
+  font-weight: 800 !important;
+}
+.lighttext {
+  color: #adb5b8 !important;
+}
+.lastRow {
+  display: flex;
+}
+.fpass {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  color: #84888e !important;
+}
+.rpass {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  color: #84888e !important;
+}

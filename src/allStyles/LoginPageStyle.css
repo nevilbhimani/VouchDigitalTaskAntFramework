@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90.5vh;
+}
+.logindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  max-width: 100% !important;
+  height: 90.5vh !important;
+
+  display: block !important;
+}
