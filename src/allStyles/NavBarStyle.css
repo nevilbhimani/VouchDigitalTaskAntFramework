@@ -25,12 +25,14 @@
   width: 100%;
   font-weight: 700 !important;
   margin-right: 5%;
+  height: 45px !important;
 }
 .bttn2 {
   width: 100%;
   border-color: #fb8500 !important;
   background-color: #fb8500 !important;
   font-weight: 700 !important;
+  height: 45px !important;
 }
 .movebttn {
   margin-left: 2.7%;
