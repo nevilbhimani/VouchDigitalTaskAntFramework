@@ -5,13 +5,8 @@ import { Button, Row, Col, Typography } from "antd";
 const NavBar = () => {
   return (
     <>
-      <Row
-        gutter={16}
-        container="true"
-        className="row"
-        spacing={{ sm: 3, xs: 0 }}
-      >
-        <Col className="col1" xs={24} sm={16}>
+      <Row container="true" className="row">
+        <Col className="col1" xs={24} sm={15}>
           <Typography className="atools">ATools</Typography>
           <Typography className="dot">.</Typography>
         </Col>
@@ -20,7 +15,7 @@ const NavBar = () => {
             Start free trial
           </Button>
         </Col>
-        <Col xs={0} sm={4}>
+        <Col xs={0} sm={4} className="movebttn">
           <Button size="large" className="bttn2" type="primary">
             Login
           </Button>
